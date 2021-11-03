@@ -1,0 +1,349 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.red {
+    border: 3px solid #74CF46;
+
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.header {
+    text-align     : center;
+    height         : 800px;
+    width          : 100%;
+    background     : url('./images/n.jpg') center center no-repeat;
+    background-size: cover;
+
+
+}
+
+.about-signin {
+    overflow      : visible;
+    display       : flex;
+    height        : 100px;
+    width         : 80%;
+    margin-left   : 150px !important;
+    flex-direction: row-reverse;
+}
+
+.about,
+.signin {
+    text-decoration: none;
+    margin-top     : 10px;
+    display        : inline-block;
+    padding        : 10px;
+
+    margin        : 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+.signin {
+    margin-right    : 10px;
+    margin-left     : 30px;
+    border-radius   : 40%;
+    padding         : 10px 30px;
+    color           : #74CF46;
+    border          : 3px solid #74CF46;
+    background-color: white;
+
+}
+
+.about {
+    color           : black;
+    background-color: #f4f4f6;
+    opacity         : 1;
+    border-radius   : 40%;
+    padding         : 10px 20px 10px 20px;
+
+}
+
+.logo {
+    background     : url('./images/gon-removebg-preview-removebg-preview.png') center center no-repeat;
+    background-size: cover;
+    opacity        : 1;
+    height         : 100px;
+    width          : 480px;
+    margin         : auto;
+    margin-top     : 120px !important;
+
+}
+
+.btn-start button:hover {
+    text-shadow: 5px 5px 7px rgb(65, 29, 29);
+
+}
+
+.btn-start button {
+
+    margin-top: 30px;
+
+    border : 1px solid #74CF46;
+    padding: 5px 10px 5px 10px;
+
+    cursor        : pointer;
+    border-radius : 100px;
+    background    : linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow    : 0 2px 4px 0 rgb(0 0 0 / 50%);
+    font-family   : Roboto;
+    color         : #FFFFFF;
+    letter-spacing: 1.33px;
+    line-height   : 21px;
+    text-transform: uppercase;
+
+    height: 40px;
+    width : 144px;
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+.content-center {
+    display: flex;
+    height : 150px;
+
+    justify-content: space-evenly;
+    margin-top     : 20px;
+}
+
+.bi.bi-gift,
+.bi.bi-alarm,
+.far.fa-thumbs-up {
+    font-size: 70px;
+}
+
+.t {
+    display       : flex;
+    flex-direction: column-reverse;
+}
+
+.t span {
+    height        : 48px;
+    font-size     : 36px;
+    font-weight   : 400;
+    letter-spacing: -0.07px;
+    line-height   : 48px;
+}
+
+.body {
+    display: flex;
+
+    width     : 794px;
+    height    : 433px;
+    margin-top: 80px;
+    position  : relative;
+
+
+}
+
+.body .images {
+    background     : url('./images/Untitled.png') center center no-repeat;
+    background-size: cover;
+    height         : 365px;
+    width          : 550px;
+    margin-left    : 80px;
+
+}
+
+.body .word {
+    width     : 500px;
+    position  : absolute;
+    right     : -488px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding   : 42px 38px 30px 46px;
+}
+
+.body .word .far.fa-bookmark,
+.title {
+    font-size: 50px;
+}
+
+.body .word button {
+    margin-top: 30px;
+
+    border : 1px solid #74CF46;
+    padding: 5px 10px 5px 10px;
+
+    cursor        : pointer;
+    border-radius : 100px;
+    background    : linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow    : 0 2px 4px 0 rgb(0 0 0 / 50%);
+    font-family   : Roboto;
+    color         : #FFFFFF;
+    letter-spacing: 1.33px;
+    line-height   : 21px;
+    text-transform: uppercase;
+
+    height: 40px;
+    width : 144px;
+}
+
+.body1 {
+
+    box-shadow   : 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width        : 699px;
+    height       : 433px;
+    margin-top   : 80px;
+    position     : relative;
+    margin-bottom: 50px;
+}
+
+.body1 .word1 {
+    width   : 400px;
+    position: absolute;
+    right   : 206px;
+}
+
+.body1 .word1 .far.fa-edit {
+    font-size: 50px;
+}
+
+
+.body1 .word1 button {
+    margin-top: 30px;
+
+    border : 1px solid #74CF46;
+    padding: 5px 10px 5px 10px;
+
+    cursor        : pointer;
+    border-radius : 100px;
+    background    : linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow    : 0 2px 4px 0 rgb(0 0 0 / 50%);
+    font-family   : Roboto;
+    color         : #FFFFFF;
+    letter-spacing: 1.33px;
+    line-height   : 21px;
+    text-transform: uppercase;
+
+    height: 40px;
+    width : 144px;
+}
+
+.images1 {
+    background     : url('./images/i2.png') center center no-repeat;
+    background-size: cover;
+    height         : 365px;
+    width          : 550px;
+    margin-left    : 736px;
+    position       : absolute;
+
+
+}
+
+.container-fluir {
+    height          : 330px;
+    width           : 100%;
+    background-color: #f4f4f6;
+    background      : url('./images/fluir.jpg') center center no-repeat;
+    background-size : cover;
+
+}
+
+.container-fluir .title2 {
+    text-align : center !important;
+    font-family: roboto;
+    font-size  : 60px;
+    padding-top: 20px;
+    color      : white;
+}
+
+.container-fluir .face img {
+
+    height: 100px;
+    width : 100px;
+}
+
+.container-fluir .face {
+    margin-left: 80px;
+    margin-top : 30px;
+
+}
+
+.container-fluir .allface {
+    display        : flex;
+    justify-content: center;
+}
+
+.container-fluir .allface .face {
+    text-align: center;
+    font-style: oblique;
+    color     : white;
+}
+
+.container-fluir .allface .face img {
+    margin-bottom: 5px;
+}
+
+.container-fluir .dot {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 30px;
+    color          : white;
+}
+
+.container-fluir .dot .far.fa-circle {
+    margin-left: 30px;
+
+}
+
+.footer {
+    background-color: #39474E;
+    height          : 197px;
+    width           : 100%;
+    display         : flex;
+    flex-direction  : row;
+    position        : relative;
+    color           : white;
+}
+
+.footer .link-list {
+    display       : flex;
+    flex-direction: column;
+    text-align    : center;
+    margin-left   : 100px;
+    margin-top    : 50px;
+
+
+
+}
+
+.footer .link-list span {
+    margin-bottom: 5px;
+}
+
+.footer .link-list .touch {
+    color: #74CF46;
+}
+
+.footer .lg-cp {
+    display       : flex;
+    flex-direction: column;
+
+    position: absolute;
+    top     : 40px;
+    left    : 100px;
+}
+
+.footer .lg-cp img {
+    height       : 40;
+    width        : 100;
+    margin-bottom: 50px;
+
+}
+
+.footer .lg-cp span {
+    font-style: oblique;
+}
+
+.footer .contact {
+    position  : absolute;
+    right     : 100px;
+    margin-top: 80px;
+}
